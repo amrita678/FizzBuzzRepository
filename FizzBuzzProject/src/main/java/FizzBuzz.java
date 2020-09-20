@@ -3,13 +3,14 @@ public class FizzBuzz {
 
 	public String convert(int i) {
 
+		String output="";
 		if(i%3==0)
-			return "Fizz";
+			output= "Fizz";
 		if(i%5==0)
-			return "Buzz";
-		else
-			return String.valueOf(i);
-					
+			output= "Buzz";
+		if(output=="")
+			output= String.valueOf(i);
+		return output;			
 		
 	}
 
