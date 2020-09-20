@@ -3,10 +3,10 @@ public class FizzBuzz {
 
 	public String convert(int i) {
 
-		if(i==1)
-			return "1";
+		if(i%3==0)
+			return "Fizz";
 		else 
-			return "2";
+			return String.valueOf(i);
 					
 		
 	}

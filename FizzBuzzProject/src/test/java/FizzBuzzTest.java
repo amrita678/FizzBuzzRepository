@@ -19,4 +19,14 @@ public class FizzBuzzTest {
 		String actual=fizzBuzz.convert(2);
 		assertEquals("2", actual);
 	}
+	
+	@Test
+	public void shouldReturnFizzWhenInputIs3() {
+
+		FizzBuzz fizzBuzz=new FizzBuzz();
+		String actual=fizzBuzz.convert(3);
+		assertEquals("Fizz", actual);
+	}
+
+	
 }
