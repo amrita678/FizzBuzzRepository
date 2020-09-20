@@ -36,8 +36,13 @@ public class FizzBuzzTest {
 		assertEquals("FizzBuzz", fizzBuzz.convert(15));
 	}
 
+	@Test
+	public void printFizzBuzzConverterOutputForNumber1to50() {
+		for(int number=1;number<=50;number++) {
+			System.out.println(fizzBuzz.convert(number));
+			
+		}
 }
-
-
+}
 
 
