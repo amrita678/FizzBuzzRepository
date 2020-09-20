@@ -31,7 +31,11 @@ public class FizzBuzzTest {
 		assertEquals("Buzz", fizzBuzz.convert(5));
 	}
 
-	
+	@Test
+	public void shouldReturnFizzBuzzWhenInputIs15() {
+		assertEquals("FizzBuzz", fizzBuzz.convert(15));
+	}
+
 }
 
 

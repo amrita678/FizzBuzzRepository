@@ -5,9 +5,9 @@ public class FizzBuzz {
 
 		String output="";
 		if(i%3==0)
-			output= "Fizz";
+			output+= "Fizz";
 		if(i%5==0)
-			output= "Buzz";
+			output+= "Buzz";
 		if(output=="")
 			output= String.valueOf(i);
 		return output;			
