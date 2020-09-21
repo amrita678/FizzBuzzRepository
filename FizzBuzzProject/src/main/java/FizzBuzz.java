@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class FizzBuzz {
 
@@ -13,5 +14,9 @@ public class FizzBuzz {
 		return output;			
 		
 	}
+	
+	public int checkNumberBetween1To50() {
+				return 0;
+		}
 
 }
